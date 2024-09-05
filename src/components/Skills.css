@@ -1,0 +1,22 @@
+.skills img {
+  width: 80px;
+  height: 80px;
+  margin-inline: 29px;
+}
+.carousal {
+  overflow: hidden;
+  margin-top: 20px;
+}
+.carousal-track {
+  display: flex;
+  animation: scroll 5s linear infinite alternate-reverse;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-250px);
+  }
+}

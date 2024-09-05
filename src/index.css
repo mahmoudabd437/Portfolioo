@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --primary-linear-gradient: linear-gradient(
+    90deg,
+    #f860d8 0.06%,
+    #5c4bf6 50.73%,
+    #45bcff 100.06%
+  );
+  --section-padding: 80px;
+}
+body {
+  background-color: #0e0e11 !important;
+  background-image: url(https://mahmoudabd437.github.io/Portfolio/Images/stardust.png);
+}
+
+.navbar {
+  backdrop-filter: blur(50px);
+}
+.navbar a {
+  font-weight: bold;
+  color: white !important;
+  font-size: 1.1rem;
+}
+a.active {
+  background: var(--primary-linear-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
+.navbar a:hover {
+  background: var(--primary-linear-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+.info {
+  padding-block: var(--section-padding);
+  margin-top: 50px;
+}
+.info img {
+  border-radius: 50%;
+}
+.info p {
+  line-height: 1.6;
+}
+.card svg {
+  height: 80px;
+}
+.card {
+  background: transparent !important;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 0, 0.9);
+  transition: 0.3s;
+}
+.card h5 {
+  max-width: 200px;
+}
+.card p {
+  line-height: 1.6;
+}
+.card:hover {
+  scale: 1.1;
+}
+.services {
+  padding-block: var(--section-padding);
+}
+@media (max-width: 768px) {
+  .card h5 {
+    margin: 10px auto;
+  }
+}
+@media (max-width: 768px) {
+  .info .row {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    text-align: center;
+  }
+}
+.links svg {
+  height: 30px;
+}
+.projects {
+  padding-block: var(--section-padding);
+}
+a {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+li {
+  list-style: none !important;
+}
+footer {
+  padding-top: var(--section-padding);
+}
+footer a svg {
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+footer a:hover svg {
+  background-color: #45bcff;
+  border-radius: 50%;
+}
+footer .links li a:hover {
+  color: #45bcff !important;
+}
+
+.card-last {
+  height: 100%;
+}
+@media (min-width: 767px) {
+  .project .row {
+    gap: 30px !important;
+  }
+  .project .card {
+    max-width: 300px !important;
+  }
+}
+.services .card {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .services .row {
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .project .row {
+    gap: 20px;
+  }
+}
+@media (min-width: 991px) {
+  .services .row .card:last-of-type {
+    margin-top: 0 !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .services .row .col-lg-4:last-of-type .card:last-of-type {
+    margin-top: 20px;
+  }
+}
+
+.contact .col:first-of-type {
+  background-image: url(../public/Assets/image2.png);
+}
+.contact .col:last-of-type {
+  background-color: rgb(30 30 30 / 1);
+}
+
+textarea {
+  height: 127px;
+}
+form input,
+textarea {
+  background-color: rgb(60 60 60 / 1);
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 1px 20px #5c4bf6;
+  border: 1px solid #5c4bf6;
+}
+form input::placeholder,
+textarea::placeholder {
+  color: rgb(156, 154, 154);
+}
+@media (max-width: 767px) {
+  .contact .col img {
+    max-width: 100%;
+  }
+}
+section.contact {
+  padding-top: var(--section-padding);
+}
+.contact .btn {
+  background: linear-gradient(90deg, #5c4bf6 50.73%, #45bcff 100.06%),
+    linear-gradient(0deg, #fff, #fff);
+  padding-inline: 25px !important;
+}
+.contact .btn:hover {
+  box-shadow: 0 1px 20px #5c4bf6;
+}

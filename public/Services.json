@@ -1,0 +1,25 @@
+{
+  "services":  [
+    {
+      "id": 1,
+      "brand": "faLaptopCode",
+      "title": "Web Development",
+      "description":
+        "Building responsive websites , functional web pages that look great , websites with clean code and modern designs ."
+    },
+    {
+      "id": 2,
+      "brand": "faMobileScreenButton",
+      "title": "Responsive Web Site",
+      "description":
+        "Creating websites that work seamlessly on all devices, from smartphones to desktops. Technologies: HTML, CSS, JavaScript, Media Queries."
+    },
+    {
+      "id": 3,
+      "brand": "faCode",
+      "title": "Clean Code",
+      "description":
+        "Developing dynamic, interactive web apps using frameworks like Bootstrap for an advanced user experience"
+    }
+]
+}
