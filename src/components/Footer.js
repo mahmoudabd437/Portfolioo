@@ -9,7 +9,6 @@ import {
 import { Link } from "react-router-dom";
 
 function Footer() {
-  
   let year = new Date().getFullYear();
   return (
     <>
@@ -90,6 +89,7 @@ function Footer() {
                     href="https://wa.me/+201128019635"
                     target="_blank"
                     aria-label="whatsapp"
+                    rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>
@@ -98,6 +98,7 @@ function Footer() {
                   <a
                     href="https://github.com/mahmoudabd437/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="github"
                   >
                     <FontAwesomeIcon icon={faGithub} />
@@ -107,6 +108,7 @@ function Footer() {
                   <a
                     href="https://www.linkedin.com/in/mahmoud-abd-elmoneam-ramadan-738146304/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="linkedin"
                   >
                     <FontAwesomeIcon icon={faLinkedin} />
@@ -117,6 +119,7 @@ function Footer() {
                     href="https://www.facebook.com/mahmoudabd2020/"
                     aria-label="facebook"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>

@@ -21,7 +21,7 @@ function Product() {
             >
               <img
                 src={product.image}
-                alt="Image {product.id}"
+                alt="project {product.id}"
                 className="card-img-top"
               />
               <div className="card-body">
@@ -32,11 +32,17 @@ function Product() {
                     href={product.link}
                     className="text-primary"
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="project1"
                   >
                     View Project
                   </a>
-                  <a href={product.github} target="_blank" aria-label="github">
+                  <a
+                    href={product.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
+                  >
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
