@@ -31,7 +31,6 @@ function Section() {
             <Link
               to={"/product"}
               className="btn btn-primary"
-              href="#project"
               onClick={() => {
                 let nav = document.querySelectorAll(".nav-link");
                 nav.forEach((element) => {
@@ -43,6 +42,12 @@ function Section() {
             >
               My Projects
             </Link>
+            <a
+              href="https://drive.google.com/file/d/1-AohnokCyjjUzluuFoF3mnur_ZbAEWQ5/view?usp=sharing"
+              className="btn btn-primary"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
