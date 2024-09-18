@@ -43,8 +43,10 @@ function Section() {
               My Projects
             </Link>
             <a
+              target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1-AohnokCyjjUzluuFoF3mnur_ZbAEWQ5/view?usp=sharing"
-              className="btn btn-primary"
+              className="btn btn-primary ms-3"
             >
               Download CV
             </a>
