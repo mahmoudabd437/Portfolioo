@@ -48,6 +48,14 @@
             "image":"/Assets/foodie.png",
             "link":"https://mahmoudabd437.github.io/Foodie-website/",
             "github":"https://github.com/mahmoudabd437/Foodie-website"
+        },
+        {
+            "id":7,
+            "description":"Website template with HTML5 , CSS3 , JS , React , Redux-react.",
+            "title":"E-commerce website",
+            "image":"/Assets/e-commerce.png",
+            "link":"https://mahmoud-e-commerce-website.netlify.app/",
+            "github":"https://github.com/mahmoudabd437/E-commerce-Website"
         }
     ]
 }
