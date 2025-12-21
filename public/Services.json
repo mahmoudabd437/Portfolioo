@@ -1,25 +1,22 @@
 {
-  "services":  [
+  "services": [
     {
       "id": 1,
       "brand": "faLaptopCode",
-      "title": "Web Development",
-      "description":
-        "Building responsive websites , functional web pages that look great , websites with clean code and modern designs ."
+      "title": "Frontend Development",
+      "description": "Building responsive and interactive user interfaces using React and modern UI tools."
     },
     {
       "id": 2,
-      "brand": "faMobileScreenButton",
-      "title": "Responsive Web Site",
-      "description":
-        "Creating websites that work seamlessly on all devices, from smartphones to desktops. Technologies: HTML, CSS, JavaScript, Media Queries."
+      "brand": "faCode",
+      "title": "Backend Development",
+      "description": "Developing secure and scalable backend systems using Django and REST APIs."
     },
     {
       "id": 3,
-      "brand": "faCode",
-      "title": "Clean Code",
-      "description":
-        "Developing dynamic, interactive web apps using frameworks like Bootstrap for an advanced user experience"
+      "brand": "faMobileScreenButton",
+      "title": "Full Stack Solutions",
+      "description": "Complete web applications from database design to frontend deployment."
     }
-]
+  ]
 }
