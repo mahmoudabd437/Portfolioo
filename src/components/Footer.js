@@ -18,9 +18,8 @@ function Footer() {
             <ul className="col-lg-4 col-md-6">
               <h3 className="text-white">Contact</h3>
               <li className="text-white">
-                Email:
-                <span className="text-white-50">
-                  Mahmoudalngm2004@gmail.com
+                Email: <span className="text-white-50">
+                  Mahmoud.abdelmoneam2004@gmail.com
                 </span>
               </li>
               <li className="text-white">
@@ -31,12 +30,13 @@ function Footer() {
                 <span className="text-white-50">Egypt, Giza, Haram</span>
               </li>
             </ul>
-            <ul className="col-lg-4 col-md-6 text-lg-center text-md-start links">
-              <h3 className="text-white">Links</h3>
-              <li className="text-white">
+            <ul className="col-lg-4 col-md-6 text-center text-md-start links">
+              <h3 className="text-white text-center">Links</h3>
+              <li className="text-white text-center">
                 <Link
+                style={{margin: "0 auto"}}
                   to={"/"}
-                  className="list text-white-50 fs-5"
+                  className="list text-white-50 fs-5 text-center"
                   onClick={() => {
                     let nav = document.querySelectorAll(".nav-link");
                     nav.forEach((element) => {
@@ -49,8 +49,10 @@ function Footer() {
                   Home
                 </Link>
               </li>
-              <li className="text-white">
+              <li className="text-white text-center">
                 <Link
+                style={{margin: "0 auto"}}
+
                   to={"product"}
                   className="list text-white-50 fs-5"
                   onClick={() => {
@@ -65,8 +67,10 @@ function Footer() {
                   Projects
                 </Link>
               </li>
-              <li className="text-white">
+              <li className="text-white text-center">
                 <Link
+                style={{margin: "0 auto"}}
+
                   to={"services"}
                   className="list text-white-50 fs-5"
                   onClick={() => {

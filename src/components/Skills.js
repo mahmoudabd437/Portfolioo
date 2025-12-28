@@ -1,33 +1,34 @@
-import "../components/Skills.css";
+import "./Skills.css";
+
+const images = [
+  { src: "/Assets/html5.png", title: "HTML" },
+  { src: "/Assets/css3.png", title: "CSS" },
+  { src: "/Assets/bootstrap-logo.png", title: "Bootstrap" },
+  { src: "/Assets/js-logo.2.png", title: "JavaScript" },
+  { src: "/Assets/React.logo.png", title: "React" },
+  { src: "/Assets/github.png", title: "GitHub" },
+  { src: "/Assets/1_slHeZngyeUr7ypEz7MNL5w.png", title: "Django" },
+  { src: "/Assets/django-rest-framework.png", title: "Django REST" },
+  { src: "/Assets/png-transparent-postgresql-plain-wordmark-logo-icon.png", title: "PostgreSQL" },
+  { src: "/Assets/sqlite-db-browser.png", title: "SQLite" },
+];
+
+// علشان الحركة تكون infinite ناعمة
+const sliderImages = [...images, ...images];
 
 function Skills() {
   return (
     <section className="skills">
-      <h1 className="text-center text-primary">My Skills</h1>
+      <h2 className="skills-title">My Skills</h2>
 
-      <div className="container">
-        <h3 className="text-center text-white-50 mt-5">Frontend</h3>
-        <div className="carousal">
-          <div className="carousal-track">
-            <img src="/Assets/html5.png" alt="HTML" />
-            <img src="/Assets/css3.png" alt="CSS" />
-            <img src="/Assets/bootstrap-logo.png" alt="Bootstrap" />
-            <img src="/Assets/js-logo.2.png" alt="JavaScript" />
-            <img src="/Assets/React.logo.png" alt="React" />
-            <img src="/Assets/github.png" alt="GitHub" />
-          </div>
-        </div>
-
-        <h3 className="text-center text-white-50 mt-5">Backend</h3>
-        <div className="carousal">
-          <div className="carousal-track">
-            <img src="/Assets/django.png" alt="Django" />
-            <img src="/Assets/drf.png" alt="Django REST" />
-            <img src="/Assets/postgresql.png" alt="PostgreSQL" />
-            <img src="/Assets/sqlite.png" alt="SQLite" />
-            <img src="/Assets/jwt.png" alt="JWT" />
-            <img src="/Assets/github.png" alt="Git" />
-          </div>
+      <div className="slider">
+        <div className="list">
+          {sliderImages.map((item, index) => (
+            <div className="item" key={index}>
+              <img src={item.src} alt={item.title} />
+              <p>{item.title}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
